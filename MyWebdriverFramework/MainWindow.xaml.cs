@@ -60,20 +60,17 @@ namespace MyWebdriverFramework
             public void CreateEmail()
             {
 
-                const string file = "TestFile.txt";
+                
 
-                //String webElement, elementKey = String.Empty;
-
-                String password = "cl3arp30pl3";
-                String userName = "clearpeople";
+                
 
                 
 
 
                 WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
                 driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(60));
-                //navigate to ECM
-                driver.Navigate().GoToUrl("http://uatcm.law-now.clearpeople.biz/speak");
+                //navigate to 
+                driver.Navigate().GoToUrl("");
 
 
                 
@@ -103,6 +100,7 @@ namespace MyWebdriverFramework
 
         }
 
+       
     }
 }
 

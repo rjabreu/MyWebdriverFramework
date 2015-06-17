@@ -1,1 +1,22 @@
 c:\users\ricardo abreu\documents\visual studio 2013\Projects\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\MyWebdriverFramework.exe.config
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\MyWebdriverFramework.exe.config
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MyWebdriverFramework.csprojResolveAssemblyReference.cache
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MainWindow.baml
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MainWindow.g.cs
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\App.g.cs
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MyWebdriverFramework_MarkupCompile.cache
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MyWebdriverFramework.g.resources
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MyWebdriverFramework.Properties.Resources.resources
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MyWebdriverFramework.csproj.GenerateResource.Cache
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\MyWebdriverFramework.exe
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\MyWebdriverFramework.pdb
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\nunit.framework.dll
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\WebDriver.dll
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\WebDriver.Support.dll
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\nunit.framework.xml
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\WebDriver.xml
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\bin\Debug\WebDriver.Support.xml
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MyWebdriverFramework.exe
+C:\Users\ricardo abreu\Documents\GitHub\MyWebdriverFramework\MyWebdriverFramework\obj\Debug\MyWebdriverFramework.pdb
