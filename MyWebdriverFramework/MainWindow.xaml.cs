@@ -20,6 +20,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Xaml;
+
 
 namespace MyWebdriverFramework
 {
@@ -28,9 +30,25 @@ namespace MyWebdriverFramework
     /// </summary>
     public partial class MainWindow : Window
     {
+        ListOfElements lstElements = new ListOfElements();
+        ElementsManager eManager = new ElementsManager();
+        enum actions
+        {
+            click = 1,
+            sendkeys = 2
+
+        };
+        
+
         public MainWindow()
         {
             InitializeComponent();
+
+            lstElements = eManager.loadElements();
+            listActionsBox.ItemsSource = Enum.GetValues(typeof(actions));
+            pathListBox.DataContext = lstElements;
+
+           
         }
 
 
@@ -40,7 +58,7 @@ namespace MyWebdriverFramework
         {
 
             IWebDriver driver;
-            public ListOfWebElements listOfElements = new ListOfWebElements();
+            public ElementsManager listOfElements = new ElementsManager();
 
             [SetUp]
             public void Setup()
@@ -98,6 +116,31 @@ namespace MyWebdriverFramework
 
             }
 
+        }
+
+        private void saveElement_Click(object sender, RoutedEventArgs e)
+        {
+           
+            WebElement el = new WebElement();
+
+             foreach(WebElement element in lstElements)
+             {
+                 if (element.name == intputElementName.Text)
+                     logBox.Text = "Name already exists. Please choose a unique name for each element.";
+             }
+
+             el.name = intputElementName.Text;
+            el.path = inputElementPath.Text;
+            lstElements.Add(el);
+            eManager.saveElements(lstElements);
+        }
+
+        
+
+        private void addAction_Click(object sender, RoutedEventArgs e)
+        {
+            actions a;
+            Enum.TryParse<actions>(listActionsBox.SelectedValue.ToString(), out a); 
         }
 
        

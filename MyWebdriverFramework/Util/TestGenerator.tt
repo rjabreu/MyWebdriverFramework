@@ -1,0 +1,13 @@
+﻿<#+
+// <copyright file="TestGenerator.tt" company="Microsoft">
+//  Copyright © Microsoft. All Rights Reserved.
+// </copyright>
+
+public class TestGenerator : Generator
+{
+	protected override void RunCore()
+	{
+
+	}
+}
+#>
